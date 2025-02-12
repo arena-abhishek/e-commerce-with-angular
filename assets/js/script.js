@@ -28,7 +28,7 @@ let content3 = `
           <div class="col mb-5 mb-md-0 ">
            <div class="card bg-transparent d-flex justify-content-center align-items-center border-0 ">
             <div class="rounded-5  icon-delivery d-flex justify-content-center align-items-center ">
-              <img src="assets/img/icon-delivery.png" alt="">
+              <img src="assets/img/icon-delivery.webp" alt="">
             </div>
             <div class="card-body text-center">
               <h5 class="card-title mt-4 fw-bold text-fs  ">FREE AND FAST DELIVERY</h5>
@@ -39,7 +39,7 @@ let content3 = `
           <div class="col  mb-5 mb-md-0">
            <div class="card bg-transparent d-flex justify-content-center align-items-center border-0 ">
             <div class="rounded-5  icon-delivery d-flex justify-content-center align-items-center ">
-              <img  src="assets/img/Icon-Customer service.png" alt="">
+              <img  src="assets/img/Icon-Customer service.webp" alt="">
             </div>
             <div class="card-body text-center">
               <h5 class="card-title mt-4 fw-bold  text-fs ">24/7 CUSTOMER SERVICE</h5>
@@ -50,7 +50,7 @@ let content3 = `
           <div class="col ">
            <div class="card bg-transparent d-flex justify-content-center align-items-center border-0 ">
             <div class="rounded-5  icon-delivery d-flex justify-content-center align-items-center ">
-              <img src="assets/img/Icon-secure.png" alt="">
+              <img src="assets/img/Icon-secure.webp" alt="">
             </div>
             <div class="card-body text-center">
               <h5 class="card-title mt-4 fw-bold text-fs ">MONEY BACK GUARANTEE</h5>

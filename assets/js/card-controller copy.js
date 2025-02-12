@@ -2,7 +2,7 @@
 // Card data
 const generateCard = [
   {
-    image: "assets/img/g92-2-500x500 1.png",
+    image: "assets/img/g92-2-500x500 1.webp",
     title: "HAVIT HV-G92 Gamepad",
     price: 260,
     mrpPrice: 160,
@@ -11,7 +11,7 @@ const generateCard = [
     reviews: 88,
   },
   {
-    image: "assets/img/ak-900-01-500x500 1.png",
+    image: "assets/img/ak-900-01-500x500 1.webp",
     title: "AK-900 Wired Keyboard",
     price: 960,
     mrpPrice: 1160,
@@ -20,7 +20,7 @@ const generateCard = [
     reviews: 89,
   },
   {
-    image: "assets/img/monitor.png",
+    image: "assets/img/monitor.webp",
     title: "IPS LCD Gaming Monitor",
     price: 370,
     mrpPrice: 400,
@@ -29,7 +29,7 @@ const generateCard = [
     reviews: 88,
   },
   {
-    image: "assets/img/chair.png",
+    image: "assets/img/chair.webp",
     title: "S-Series Comfort Chair",
     price: 325,
     mrpPrice: 400,
@@ -38,63 +38,63 @@ const generateCard = [
     reviews: 85,
   },
   {
-    image: "assets/img/north coat.png",
+    image: "assets/img/north coat.webp",
     title: "The north coat",
     price: 260,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/Gucci-Savoy-medium-duffle-bag.png",
+    image: "assets/img/Gucci-Savoy-medium-duffle-bag.webp",
     title: "Gucci duffle bag",
     price: 960,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/gammaxx-rgb.png",
+    image: "assets/img/gammaxx-rgb.webp",
     title: "RGB liquid CPU Cooler",
     price: 160,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/book shelf.png",
+    image: "assets/img/book shelf.webp",
     title: "Small BookSelf",
     price: 360,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/Frame 604.png",
+    image: "assets/img/Frame 604.webp",
     title: "Breed Dry Dog Food",
     price: 100,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/camera.png",
+    image: "assets/img/camera.webp",
     title: "CANON EOS DSLR Camera",
     price: 160,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/laptop.png",
+    image: "assets/img/laptop.webp",
     title: "ASUS FHD Gaming Laptop",
     price: 700,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/curology.png",
+    image: "assets/img/curology.webp",
     title: "Curology Product Set",
     price: 500,
     ratings: [1, 1, 1, 1, 1],
     reviews: 65,
   },
   {
-    image: "assets/img/Car Kids.png",
+    image: "assets/img/Car Kids.webp",
     title: "Kids Electric Car",
     price: 960,
     new: true,
@@ -102,14 +102,14 @@ const generateCard = [
     reviews: 70,
   },
   {
-    image: "assets/img/shoes.png",
+    image: "assets/img/shoes.webp",
     title: "Jr. Zoom Soccer Cleats",
     price: 1160,
     ratings: [1, 1, 1, 1, 1],
     reviews: 80,
   },
   {
-    image: "assets/img/gamepad black.png",
+    image: "assets/img/gamepad black.webp",
     title: "GP11 Shooter USB Gamepad",
     price: 660,
     new: true,
@@ -117,7 +117,7 @@ const generateCard = [
     reviews: 60,
   },
   {
-    image: "assets/img/jacket.png",
+    image: "assets/img/jacket.webp",
     title: "Quilted Satin Jacket",
     price: 660,
     ratings: [1, 1, 1, 1, 0.5],
@@ -182,10 +182,10 @@ function generateCards(cards) {
                 ${isNew}
                 <div class="viewAndwhislist d-flex flex-column gap-2">
                   <div class="icon-circle">
-                    <a href="#"><img src="assets/img/heart-icon.png" alt="Wishlist" /></a>
+                    <a href="#"><img src="assets/img/heart-icon.webp" alt="Wishlist" /></a>
                   </div>
                   <div class="icon-circle">
-                    <a href="#"><img src="assets/img/view-icon.png" alt="View" /></a>
+                    <a href="#"><img src="assets/img/view-icon.webp" alt="View" /></a>
                   </div>
                 </div>
               </div>
@@ -293,7 +293,7 @@ function addToCart(title, price) {
     newRow.setAttribute("data-title", title);
     newRow.innerHTML = `
           <td>
-              <img src="assets/img/${title.replace(/\s+/g, "-").toLowerCase()}.png" alt="${title}" width="50">
+              <img src="assets/img/${title.replace(/\s+/g, "-").toLowerCase()}.webp" alt="${title}" width="50">
               ${title}
           </td>
           <td>$${price}</td>

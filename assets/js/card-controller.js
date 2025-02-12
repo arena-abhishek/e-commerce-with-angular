@@ -3,7 +3,7 @@
 // Card data
 const todaysCards = [
   {
-    image: "assets/img/g92-2-500x500 1.png",
+    image: "assets/img/g92-2-500x500 1.webp",
     title: "HAVIT HV-G92 Gamepad",
     price: 260,
     mrpPrice: 160,
@@ -12,7 +12,7 @@ const todaysCards = [
     reviews: 88,
   },
   {
-    image: "assets/img/ak-900-01-500x500 1.png",
+    image: "assets/img/ak-900-01-500x500 1.webp",
     title: "AK-900 Wired Keyboard",
     price: 960,
     mrpPrice: 1160,
@@ -21,7 +21,7 @@ const todaysCards = [
     reviews: 88,
   },
   {
-    image: "assets/img/monitor.png",
+    image: "assets/img/monitor.webp",
     title: "IPS LCD Gaming Monitor",
     price: 370,
     mrpPrice: 400,
@@ -30,7 +30,7 @@ const todaysCards = [
     reviews: 88,
   },
   {
-    image: "assets/img/chair.png",
+    image: "assets/img/chair.webp",
     title: "S-Series Comfort Chair",
     price: 325,
     mrpPrice: 400,
@@ -42,28 +42,28 @@ const todaysCards = [
 
 const thisMonthCards = [
   {
-    image: "assets/img/north coat.png",
+    image: "assets/img/north coat.webp",
     title: "The north coat",
     price: 260,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/Gucci-Savoy-medium-duffle-bag.png",
+    image: "assets/img/Gucci-Savoy-medium-duffle-bag.webp",
     title: "Gucci duffle bag",
     price: 960,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/gammaxx-rgb.png",
+    image: "assets/img/gammaxx-rgb.webp",
     title: "RGB liquid CPU Cooler",
     price: 160,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/book shelf.png",
+    image: "assets/img/book shelf.webp",
     title: "Small BookSelf",
     price: 360,
     ratings: [1, 1, 1, 1, 1],
@@ -73,35 +73,35 @@ const thisMonthCards = [
 
 const ourProductsCards = [
   {
-    image: "assets/img/Frame 604.png",
+    image: "assets/img/Frame 604.webp",
     title: "Breed Dry Dog Food",
     price: 100,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/camera.png",
+    image: "assets/img/camera.webp",
     title: "CANON EOS DSLR Camera",
     price: 160,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/laptop.png",
+    image: "assets/img/laptop.webp",
     title: "ASUS FHD Gaming Laptop",
     price: 700,
     ratings: [1, 1, 1, 1, 1],
     reviews: 60,
   },
   {
-    image: "assets/img/curology.png",
+    image: "assets/img/curology.webp",
     title: "Curology Product Set",
     price: 500,
     ratings: [1, 1, 1, 1, 1],
     reviews: 65,
   },
   {
-    image: "assets/img/Car Kids.png",
+    image: "assets/img/Car Kids.webp",
     title: "Kids Electric Car",
     price: 960,
     new: true,
@@ -109,14 +109,14 @@ const ourProductsCards = [
     reviews: 70,
   },
   {
-    image: "assets/img/shoes.png",
+    image: "assets/img/shoes.webp",
     title: "Jr. Zoom Soccer Cleats",
     price: 1160,
     ratings: [1, 1, 1, 1, 1],
     reviews: 80,
   },
   {
-    image: "assets/img/gamepad black.png",
+    image: "assets/img/gamepad black.webp",
     title: "GP11 Shooter USB Gamepad",
     price: 660,
     new: true,
@@ -124,7 +124,7 @@ const ourProductsCards = [
     reviews: 60,
   },
   {
-    image: "assets/img/jacket.png",
+    image: "assets/img/jacket.webp",
     title: "Quilted Satin Jacket",
     price: 660,
     ratings: [1, 1, 1, 1, 0.5],
